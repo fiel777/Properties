@@ -4,7 +4,6 @@ import { BsArrowRight } from "react-icons/bs";
 import PropertyModal from "./PropertyModal";
 import { Link } from "react-router-dom";
 
-
 const data = [
   {
     imgUrl: "/CA90266/CA90266_1.webp",
@@ -66,31 +65,29 @@ function CA90266() {
           <div className="flex-1 font-secondary font-medium border p-4 border-slate-100 relative">
             <div className="lg:flex lg:flex-col lg:gap-4">
               <h1 className="lg:pt-20">
-                670 Perugia Way, Los Angeles, CA 90077
+                528 15th St, Manhattan Beach, CA 90266
               </h1>
               <p className="text-sm font-light font-primary">
-                Nestled atop the scenic hills of Los Angeles, 670 Perugia Way is
-                a singular world-class gated estate that beckons with an aura of
-                exclusivity and prestige. This exceptional property, spanning
-                over an acre, offers a breathtaking panorama of the lush
-                fairways of the renowned Bel Air Country Club.
+                Hey everyone, check out this super cool Custom-Built Coastal
+                Luxury Home! It's got a mix of modern farmhouse and South
+                Hampton vibes and is packed with 6 bedrooms and 7 bathrooms. But
+                the real showstopper is the kitchen – two huge islands, a custom
+                tile backsplash, and fancy Italian marble countertops!
               </p>
               <p className="text-sm font-light font-primary">
-                Singular World Class Gated Estate is balanced on a generous
-                acre-plus lot overlooking fairways of the Bel Air Country Club.
-                Situated at end of the cul-de-sac on prestigious Perugia Way.
-                Built 2015 by London-based architect, Felicity Bell, this
-                indescribable residence is nothing short of a masterpiece, it
-                could be characterized as a Villa Moderne.
+                Treat yourself to a look inside this Custom-Built Coastal Luxury
+                Home with modern farmhouse and South Hampton influences. The
+                Craftsmanship in this 6-bedroom 7-bath home is remarkable
+                starting with the impressive kitchen, appointed with 2 expansive
+                center islands, custom ceramic tile back-splash and stunning
+                counter-tops of Statuario marble from Italy.
               </p>
               <p className="text-sm font-light font-primary">
-                670 Perugia Way is more than just a home; it's an embodiment of
-                luxury living in one of Los Angeles' most prestigious
-                neighborhoods. With its breathtaking views, gated privacy, and
-                world-class amenities, this estate redefines the meaning of
-                opulence. It's an invitation to experience the pinnacle of
-                California living in a place where every moment is truly
-                exceptional.
+                In a nutshell, this house is all about living the dream. From
+                the awesome kitchen to every part of the house, it's perfect for
+                making great memories. Don't miss out on this chance to call it
+                your own. Get ready for some seriously cool living in this
+                coastal paradise!
               </p>
               <div className="flex flex-col py-4 gap-4 lg:flex-row">
                 <div className="w-[180px] h-[30px] relative text-black hover:text-white bg-white z-40 cursor-pointer    ">
