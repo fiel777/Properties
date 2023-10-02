@@ -2,6 +2,7 @@ import { React, useRef, useEffect } from "react";
 import { TfiClose } from "react-icons/tfi";
 
 function PropertyModal({ closeModal, data }) {
+
   const boxRef = useRef(null);
 
   useEffect(() => {
@@ -9,11 +10,14 @@ function PropertyModal({ closeModal, data }) {
       if (
         event.target.contains(boxRef.current) &&
         event.target !== boxRef.current
-      ) {
+      )
+       {
         closeModal(false);
       }
     };
   }, []);
+
+
 
   return (
     <div className="inset-0 fixed text-black z-50 text-sm flex flex-col items-center justify-center ">

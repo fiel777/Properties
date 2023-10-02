@@ -8,6 +8,8 @@ import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { FramerContainer, navItem } from "../FramerMotion/DefaultAnimation";
 import { Link } from "react-router-dom";
+
+
 function Property() {
   return (
     <div className="w-11/12 h-screen  m-auto flex items-center flex-col py-20 md:w-full md:px-8 lg:max-w-screen-2xl 2xl:max-w-[1800px]">

@@ -24,6 +24,7 @@ const data = [
 function CA9007() {
   const [element, setElement] = useState();
   const [open, setOpen] = useState(false);
+
   const handleButtonClick = () => {
     setOpen(false);
   };
@@ -64,7 +65,7 @@ function CA9007() {
             </div>
           </div>
           <div className="flex-1 font-secondary font-medium border p-4 border-slate-100 relative">
-            <div className="lg:flex lg:flex-col lg:gap-4">
+            <div className="flex flex-col gap-4 lg:flex lg:flex-col lg:gap-4">
               <h1 className="lg:pt-20">
                 670 Perugia Way, Los Angeles, CA 90077
               </h1>

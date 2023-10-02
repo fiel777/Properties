@@ -8,7 +8,7 @@ function Agents() {
     <div className=" w-11/12 flex m-auto lg:max-w-screen-xl ">
       <div className="">
         <div className="flex flex-col gap-4 py-20 lg:py-40 sm:flex-row ">
-          <div className="flex flex-col gap-4 md:flex-row shadow-sm bg-slate-50 p-4">
+          <div className="flex flex-col gap-6 md:flex-row shadow-sm bg-slate-50 p-4">
             <div className="flex-1 font-secondary  flex flex-col gap-2">
               <div className="w-full relative group flex items-center justify-center ">
                 <img
@@ -48,7 +48,7 @@ function Agents() {
           </div>
         </div>
         <div className="flex flex-col gap-4 py-20 lg:py-40 sm:flex-row ">
-          <div className="flex flex-col md:flex-row shadow-sm bg-slate-50 p-4">
+          <div className="flex gap-6 flex-col md:flex-row shadow-sm bg-slate-50 p-4">
             <div className="flex-1 flex-col font-secondary flex  gap-2">
               <div className="w-full relative group flex items-center justify-center ">
                 <img

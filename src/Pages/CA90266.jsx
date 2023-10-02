@@ -63,7 +63,7 @@ function CA90266() {
             </div>
           </div>
           <div className="flex-1 font-secondary font-medium border p-4 border-slate-100 relative">
-            <div className="lg:flex lg:flex-col lg:gap-4">
+            <div className="flex flex-col gap-4 lg:flex lg:flex-col lg:gap-4">
               <h1 className="lg:pt-20">
                 528 15th St, Manhattan Beach, CA 90266
               </h1>
